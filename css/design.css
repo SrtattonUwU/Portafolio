@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: transparent;
+}
+
+#particulas {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(135deg, #5a189a, #150029);
+}
+
+.bienvenida {
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.bienvenida h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.bienvenida p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+p{
+    color: #fff;
+}
+
+.section {
+    padding: 60px 20px;
+    backdrop-filter: blur(0.8px);
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.section ul li {
+    background: rgba(255, 255, 255, 0.8);
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.section ul li:hover {
+    transform: translateY(-5px);
+}
+
+.caja-lenguajes {
+background: rgba(255, 255, 255, 0.85);
+border-radius: 12px;
+padding: 15px;
+text-align: center;
+color: #000;
+transition: all 0.3s ease;
+height: 100%;
+}
+
+.caja-lenguajes:hover {
+transform: translateY(-5px);
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+img {
+    transition: transform 0.5s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
